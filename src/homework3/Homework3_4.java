@@ -45,6 +45,5 @@ public class Homework3_4 {
         } else {
             System.out.println("Нулевых элементов нет");
         }
-
     }
 }

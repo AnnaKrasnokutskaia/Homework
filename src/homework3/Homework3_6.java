@@ -46,6 +46,5 @@ public class Homework3_6 {
         } else {
             System.out.println("Массив не является возрастающим");
         }
-
     }
 }

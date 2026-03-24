@@ -39,6 +39,5 @@ public class Homework3_5 {
         }
 
         System.out.println(Arrays.toString(array));
-
     }
 }
