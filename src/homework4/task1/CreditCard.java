@@ -23,7 +23,7 @@ public class CreditCard {
     }
 
     public void withdraw(double amount) {
-        if (balance > amount) {
+        if (balance >= amount) {
             balance -= amount;
         } else {
             System.out.println("Недостаточно средств для снятия " + amount + " рублей, ваш баланс " + balance + " рублей");
