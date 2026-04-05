@@ -28,5 +28,4 @@ public class Hospital {
         patient2.getHelp();
         patient3.getHelp();
     }
-
 }
