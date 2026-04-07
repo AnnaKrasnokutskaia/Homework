@@ -9,7 +9,12 @@ public class Patient {
     }
 
     void getHelp(){
-        System.out.println("Пациент c планом лечения " + this.treatmentPlan + " идёт к врачу, а тот...");
-        doctor.cure();
+        if (this.doctor != null) {
+            System.out.println("Пациент c планом лечения " + this.treatmentPlan + " идёт к врачу, а тот...");
+            doctor.cure();
+        }
+        else {
+            System.out.println("Нужно сходить к терапевту и получить направление к врачу");
+        }
     }
 }

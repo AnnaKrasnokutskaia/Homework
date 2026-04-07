@@ -19,6 +19,7 @@ public class Hospital {
         Dentist dentist = new Dentist();
         Therapist therapist = new Therapist();
         Patient patient1 = new Patient(1);
+        patient1.getHelp();
         Patient patient2 = new Patient(2);
         Patient patient3 = new Patient(3);
         therapist.chooseDoctor(patient1, surgeon, dentist);
